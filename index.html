@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تبدیل واحد</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+  
+  <div class="card p-4 w-100 mx-2 shadow" style="max-width:600px ;">
+    <h4 class="text-center mb-3">تبدیل واحد (نسخه ۱)</h4>
+    
+    <select id="convertType" class="form-select mb-3">
+      <option value="length">طول (سانتیمتر به متر)</option>
+      <option value="weight">وزن (کیلوگرم به گرم)</option>
+      <option value="time">زمان (دقیقه به ثانیه)</option>
+    </select>
+    
+    <input type="number" id="inputValue" class="form-control mb-3" placeholder="مقدار رو وارد کن">
+    
+    <button id="convertBtn" class="btn btn-primary w-100">تبدیل کن</button>
+    
+    <div id="result" class="alert alert-info d-none"></div>
+  </div>
+  
+  
+  
+  
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+  
